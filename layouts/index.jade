@@ -1,0 +1,27 @@
+include scripts
+
+doctype html
+html
+  head
+    title
+      block title
+      | London in stereoscopic 3D
+
+    link(rel='stylesheet', href='css/style.css')
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=Edge")
+    meta(name='viewport', content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0")
+    meta(name='HandheldFriendly', content='true')
+    meta(name='format-detection', content='telephone=no')
+    meta(name="apple-mobile-web-app-status-bar-style", content="black")
+    meta(name="apple-touch-fullscreen", content="yes")
+    meta(name="-webkit-text-size-adjust", content="100%")
+    meta(name="title", content="London 3D")
+    meta(name="description", content="Stereoscopic 3D pictures of London city")
+
+  body
+    main
+      h1 London Timescapes 3D
+      p Short film by Alex Savin
+      p More info coming soon
+    +scripts

@@ -1,0 +1,18 @@
+{
+  "name": "stereo3dlondon",
+  "version": "0.1.0",
+  "description": "Stereo 3D London site",
+  "dependencies": {
+    "LiveScript": "^1.2.0",
+    "prelude-ls": "1.0.3",
+    "path": "^0.11.14",
+    "gulp": "^3.8.6",
+    "gulp-autoprefixer": "0.0.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-less": "",
+    "less-plugin-clean-css": "^1.5.0"
+  },
+  "devDependencies": {
+    "LiveScript": ""
+  }
+}

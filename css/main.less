@@ -3,6 +3,11 @@
 @import "typeplate.less";
 @import "fonts.less";
 
+@column-width: 60;
+@gutter-width: 20;
+@columns: 4;
+@total-width: 100%;
+
 .bold() {
   font-family: 'charis_silbold', 'Book Antiqua', 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Georgia', 'serif';
 }
@@ -18,6 +23,7 @@ html {
 body {
   margin: 0 auto;
   width: 98%;
+  background-color: #eee;
 
   a {
     text-decoration: none;
@@ -25,5 +31,32 @@ body {
 }
 
 main {
-  .row();
+  padding: 5px;
 }
+
+#title {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+  .column(4);
+  margin-top: 20px;
+}
+

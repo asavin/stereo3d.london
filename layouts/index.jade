@@ -7,7 +7,6 @@ html
       block title
       | London Timescapes film
 
-    link(rel='stylesheet', href='css/style.css')
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=Edge")
     meta(name='viewport', content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0")
@@ -22,8 +21,14 @@ html
 
   body
     main
-      img(src='images/london-timescapes-title.svg')
-      h1 London Timescapes 3D
-      p Short film by Alex Savin
-      p More info coming soon
+      div#title
+        img(src='images/london-timescapes-title.svg')
+
+      .embed-container
+        iframe(src='https://player.vimeo.com/video/119159512', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+
+      div.description
+        h4 What?
+        p Short film by Alex Savin
+        p More info coming soon
     +scripts

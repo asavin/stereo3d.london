@@ -20,6 +20,6 @@ deploy:
   endpoint: alexsavin.me.s3-website-eu-west-1.amazonaws.com
   region: eu-west-1
   access_key_id:
-    secure: H1ht8YckYuuDsroCPWPzm6LqRCKOmuwlTMWckuqd3ydPyLqRr732ybVIxlwgXDzCIE302jzTMeccyE/+pfhrSwy3K/UrptyXhLLGLQBLDnL3pTsTgdz03AG1AhUhtap/zEX6Ek81WOZKQwO5MbgOAsplo+qbsyByHn6Bgn2hrUw=
+    secure: "ifXLF5WOChomr6dNIb7s75NSoTxPL2iMwuc8wU3Jr5ppsvCm2255vqlCtW5HZo2gWOBzVOIqgCW0mKcaZE/yL3ndQGPSGM5FcLLh9qIzWAIiVSFICtWcejiSN1Uyo5sJ4Mue6/DqsEZ7sV4P1pI3k0s1XGY2EAGbPn7b8vRj6qs="
   secret_access_key:
-    secure: cCvPHas8TVNLPpY1w13vTytU5A04gjC6FQyQmccW1mGNOvxnVLb6+YRELlT9QB5XS1xUHPiNqmn4XqduyBbV1ib/30h6w6TAtFNalklGiDJ/jHo6ic8+yVtL0xjbUDbvniaEx7ShI64Y3vPtjlI6Da4xfSC2tEGMa50zTlE+vvk=
+    secure: "DgIB8IAal4FJbRlPwB7EezakKSknZk9Tn/eFgzJYrhEk/K5sDDuH5sRt7LKU5hyGDyf35bLxw6zc3eFVrGRQv94itWnhQlWbUGf8y5vlzlo9ZhCmv7bj+fT5wwFKrfyC8GDoJ9qJysoQsEscpIJnkcCh66Kttt2P1pLwxykcaLM="

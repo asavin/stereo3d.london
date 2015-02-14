@@ -21,12 +21,31 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 auto 40px;
   width: 98%;
   background-color: #eee;
 
   a {
+    .bold();
     text-decoration: none;
+    color: #444;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  ul {
+    margin-bottom: 20px;
+    li {
+      line-height: 1.5em;
+      list-style-type: square;
+      list-style-position: inside;
+      text-indent: 1.5em;
+      a {
+        margin-left: 5px;
+      }
+    }
   }
 }
 
